@@ -2,7 +2,7 @@ const About = () => {
   return (
     <>
       <div className="flex py-20  items-center justify-center " id="about">
-        <div className="w-full max-w-7xl flex items-center justify-between px-20 text-dark">
+        <div className="w-full max-w-7xl flex items-center justify-between px-8 lg:px-20 text-dark">
           <div className="flex w-full flex-col  justify-center gap-4 mb-10">
             <h1 className="text-3xl font-bold text-center">Tentang Kami</h1>
             <p className="text-start text-gray-600">

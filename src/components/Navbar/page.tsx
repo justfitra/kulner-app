@@ -9,14 +9,14 @@ const Navbar = () => {
   console.log("Current hash:", hash);
   return (
     <nav className=" w-full bg-light border-b border-dark text-dark fixed top-0 z-30">
-      <div className="w-full  py-4  bg-light rounded-2xl max-w-7xl mx-auto px-20 flex items-center justify-between">
+      <div className="w-full  py-4  bg-light rounded-2xl max-w-7xl mx-auto px-8 md:px-20 flex items-center justify-between">
         <div>
           <h1 className="font-bold text-2xl text-dark">
             Kuliner<span className="text-primary">Ku.</span>
           </h1>
         </div>
         <div>
-          <ul className="flex gap-8 font-medium text-lg items-center justify-center">
+          <ul className="md:flex hidden gap-8  font-medium text-lg items-center justify-center">
             {[
               { link: "#home", label: "Home" },
               { link: "#menu", label: "Menu" },

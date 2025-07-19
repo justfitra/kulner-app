@@ -4,7 +4,7 @@ import Image from "next/image";
 const Galeri = () => {
   return (
     <div className="bg-light  text-dark" id="galery">
-      <div className="mx-auto flex w-full max-w-7xl flex-col items-center justify-center px-20 py-10">
+      <div className="mx-auto flex w-full max-w-7xl flex-col items-center justify-center px-8 lg:px-20 py-10">
         <div className="mb-10 flex flex-col items-center justify-center gap-4">
           <h1 className="text-3xl font-bold">Galeri Kami</h1>
           <p className="max-w-2xl text-center text-gray-600">
@@ -15,7 +15,7 @@ const Galeri = () => {
         </div>
 
         <div className="h-auto w-full">
-          <div className="mx-auto w-full px-4 md:px-8">
+          <div className="mx-auto w-full  md:px-8">
             <div className="grid w-full grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
               {[
                 {

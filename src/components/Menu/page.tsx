@@ -5,7 +5,7 @@ const Menu = () => {
   return (
     <>
       <div className=" text-dark " id="menu">
-        <div className="wfull max-w-7xl mx-auto px-20 py-20 flex flex-col items-center justify-center">
+        <div className="wfull max-w-7xl mx-auto px-8 lg:px-20 py-20 flex flex-col items-center justify-center">
           <div className="flex flex-col items-center justify-center gap-4 mb-10">
             <h1 className="text-3xl font-bold">Menu</h1>
             <p className="text-center text-gray-600 max-w-2xl">

@@ -2,21 +2,21 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-light text-dark flex w-full items-center py-10 justify-center shadow-dark ">
-      <div className="flex items-center justify-between max-w-6xl px-14 w-full">
-        <div>
+    <footer className="bg-light text-dark flex  w-full items-center py-10 justify-center shadow-dark ">
+      <div className="flex md:flex-row flex-col lg:items-center items-start justify-between max-w-6xl px-8 lg:px-14 w-full">
+        <div className="my-4 lg:my-0">
           <h2 className="text-2xl font-bold ">
             Kuliner<span className="text-primary">Ku</span>
           </h2>
-          <ul className="text-base mt-12 text-gray-500">
+          <ul className="text-base mt-4 lg:mt-12 text-gray-500">
             <li>+62 859-4586-8265</li>
             <li>rrqlemkn@gmail.com</li>
             <li>Trenggalek, Jawa Timur</li>
           </ul>
         </div>
-        <div>
+        <div className="my-4 lg:my-0">
           <h2 className="text-xl font-bold ">Layanan Kami</h2>
-          <ul className="text-base flex flex-col gap-2 mt-7 text-dark font-medium">
+          <ul className="text-base flex flex-col gap-2 mt-4 lgmt-7 text-dark font-medium">
             <li>
               <Link
                 className="hover:text-primary transition-all ease-in-out duration-150"
@@ -43,9 +43,9 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div>
+        <div className="my-4 lg:my-0">
           <h2 className="text-xl font-bold ">Hubungi Kami</h2>
-          <ul className="text-base flex flex-col gap-2 mt-7 text-dark font-medium">
+          <ul className="text-base flex flex-col gap-2 mt-4 lg:mt-7 text-dark font-medium">
             <li>
               <Link
                 className="hover:text-primary transition-all ease-in-out duration-150"
@@ -72,9 +72,9 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div>
+        <div className="my-4 lg:my-0">
           <h2 className="text-xl font-bold ">Layanan Kami</h2>
-          <ul className="text-base flex flex-col gap-2 mt-7 text-dark font-medium">
+          <ul className="text-base flex flex-col gap-2 mt-4 lg:mt-7 text-dark font-medium">
             <li>
               <Link
                 className="hover:text-primary transition-all ease-in-out duration-150"

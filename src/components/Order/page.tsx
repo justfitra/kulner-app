@@ -9,7 +9,7 @@ const Order = () => {
         className=" flex py-20  items-center justify-center bg-light "
         id="home"
       >
-        <div className="w-full max-w-7xl flex items-center justify-between px-20 text-dark">
+        <div className="w-full max-w-7xl flex items-center justify-between px-8 lg:px-20 text-dark">
           <div className="w-full flex flex-col items-center justify-center gap-4 mb-10">
             <h1 className="text-3xl font-bold">Cara Pesan</h1>
             <p className="text-center text-gray-600 max-w-2xl">
